@@ -2683,8 +2683,15 @@ ul.major-icons {
 
 ul.major-icons li {
   display: inline-block;
-  padding: 2.5em;
+  padding: 0.5em;
   text-align: center;
+}
+ul.major-icons li span .logo {
+  height: 100px;
+  width: 100px;
+}
+ul.major-icons li span .logo.pad {
+  padding: 12px;
 }
 
 ul.major-icons li .icon {
